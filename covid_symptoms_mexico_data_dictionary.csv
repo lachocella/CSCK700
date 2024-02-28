@@ -1,0 +1,22 @@
+VARIABLE,TYPE,DESCRIPTION
+USMER,STRING,"Indicates whether the patient was treated in medical units of the first, second or third level"
+ MEDICAL_UNIT  ,INTEGER,"The type of institution of the National Health System that provided the care, from 1 to 13"
+SEX ,STRING,Male or Female
+PATIENT_TYPE,STRING,Has the patient returned home?
+DATE_DIED   ,STRING,The date of the patients death
+INTUBED,STRING,Is the patient connected to a ventilator?
+PNEUMONIA ,STRING,Does the patient have inflamed air sacs or not
+AGE,INTEGER,Patient's age
+PREGNANT,STRING,Is the patient pregnant?
+DIABETES,STRING,Does the patient have diabetes?
+COPD,STRING,Does the patient have Chronic obstructive pulmonary disease or not?
+ASTHMA,STRING,Does the patient have  asthma?
+IMMUNOSUPPRESSED,STRING,Is the patient immunosuppresed?
+HYPERTENSION ,STRING,Does the patient have hypertension?
+OTHER_DISEASE ,STRING,Does the patient have other diseases not explicitly listed?
+CARDIOVASCULAR ,STRING,Does the patient have any cardiovascular issues?
+OBESITY,STRING,Is the patient obese?
+RENAL_CHRONIC,STRING,Does the patient have chronic kidney disease?
+TOBACCO,STRING,Does the patient smoke tobacco?
+DEGREE_OF_COVID ,INTEGER,Covid test findings. 1-3 means that the patient was diagnosed with covid in different degrees. 4 or higher means that the patient is not a carrier of covid or that the test was inconclusive
+ICU,STRING,Has the patient been admitted into the intensive care unit?
